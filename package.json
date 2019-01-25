@@ -1,0 +1,17 @@
+{
+    "name": "typescript-node-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "BSD-2-Clauses",
+    "dependencies": {
+        "@types/node": "^10.12.18",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.2.4",
+        "webpack": "^4.29.0"
+    },
+    "scripts": {
+        "start": "node bin/app.js",
+        "watch": "webpack --watch --progress",
+        "build": "webpack -p --progress"
+    }
+}
